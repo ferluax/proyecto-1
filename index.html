@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+
+
+  <style>
+    .grad{
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="p-4">
+    <a class="font-bold text-3xl text-green-500" href="#">ZAMAZOR</a>
+
+    <div class="float-right">
+      <a class="hover:opacity-100 opacity-70 text-lg mr-4" href="#¿Quienes Somos?">¿Quienes Somos?</a>
+      <a class="hover:opacity-100 opacity-70 text-lg mr-4" href="#Contacto">Contacto</a>
+    </div>
+  </nav>
+
+  <section class="px-16 mt-32 mb-32">
+    <div class="grid grid-cols-2">
+      <div>
+        <h1 class="text-5xl font-bold pb-4">La mejor tienda en linea!</h1>
+        <p class="pb-4">Encuentra todo los productos que quieras en un mismo lugar y al mejor precio.</p>
+        <a class="p-4 bg-green-300 inline-block hover:shadow-2xl" href="#">Conoce nuestras ofertas</a>
+      </div>
+
+      <div>
+        <img class="max-w-sn" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2018/11/50-regalos-tecnologicos-menos-50-euros.jpg?itok=qA1GYNFm">
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="¿Quienes Somos?" class="text-center mb-32">
+    <div class="max-w-xl inline-block">
+      <h1 class="text-4xl font-bold mb-4">¿Quienes Somos?</h1>
+      <p class="mb-4">Somos una empresa mexicana que esta comprometida con todos nuestros usuarios, nuestro objetivo es ofrecerte los mejores productos al mejor precio.</p>
+
+      <div class="grid grid-cols-2 text-center gap-4">
+        <div class="pt-8 mr-4">
+          <h2 class="font-bold text-2xl">Videojuegos</h2>
+          <img class="max-w-sn" src="https://cdn.pocket-lint.com/r/s/x1920/assets/images/154021-games-news-buyer-s-guide-best-games-console-2020-should-you-get-an-xbox-playstation-or-nintendo-switch-image11-pdijuoea6m.jpg">
+        </div>
+
+        <div class="pt-8 mr-4">
+          <h2 class="font-bold text-2xl">Electrodomesticos</h2>
+          <img class="max-w-sn" src="https://twparts.com.mx/wp-content/uploads/2021/07/shutterstock_1929910904-768x527.jpg">
+        </div>
+
+        <div class="pt-8 mr-4">
+          <h2 class="font-bold text-2xl">Ropa</h2>
+          <img class="max-w-sn" src="https://stopcambioclimatico.es/wp-content/uploads/2019/06/scc-2.jpg">
+        </div>
+
+        <div class="pt-8 mr-4">
+          <h2 class="font-bold text-2xl">Cuidado Personal</h2>
+          <img class="max-w-sn" src="https://activosbolivia.com/wp-content/uploads/2021/03/Unilever-1-1024x576.jpg">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="px-16 mb-32">
+    <h1 class="text-4xl font-bold mb-4 text-center">Suscripciones ZAMAZOR</h1>
+
+    <div class="grid sm:grid-cols-2 gap-4 grid-cols-1 text-xl font-bold text-center">
+      <div>
+        <div class="p-4 grad rounded-lg">
+          <div class="bg-green-300 p-8 rounded-lg shadow-2xl">
+              <div class="mb-4 tgrad">
+                Plan Standard
+              </div>
+
+              <div class="mb-4 tgrad font-bold text-5xl">
+                $0.00
+              </div>
+
+              <div class="text-base">
+                Beneficios del Plan:
+              </div>
+
+              <hr class="mb-4">
+              <ul class="text-lg my-16">
+                <li class="mb-2 text-left">
+                  <span class="align-middle">- Poder realizar compras en la aplicacion.</span>
+                </li>
+                <li class="mb-2 text-left">
+                  <span class="align-middle">- Envios Gratis a partir de $299.99</span>
+                </li>
+                <li class="mb-2 text-left">
+                  <span class="align-middle">- Codigos de descuento</span>
+                </li>
+              </ul>
+
+              <button class="hover:shadow-2xl grad p-4 text-white w-full">Suscribete a este plan</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="p-4 grad rounded-lg">
+          <div class="bg-green-300 p-8 rounded-lg shadow-2xl">
+              <div class="mb-4 tgrad">
+                Plan Premium
+              </div>
+
+              <div class="mb-4 tgrad font-bold text-5xl">
+                $199.99
+              </div>
+
+              <div class="text-base">
+                Beneficios del Plan:
+              </div>
+
+              <hr class="mb-4">
+              <ul class="text-lg my-16">
+                <li class="mb-2 text-left">
+                  <span class="align-middle">- Envios Gratis con culaquier compra</span>
+                </li>
+                <li class="mb-2 text-left">
+                  <span class="align-middle">- Ofertas Exclusivas</span>
+                </li>
+                <li class="mb-2 text-left">
+                  <span class="align-middle">- Descuento en envios internacioneales</span>
+                </li>
+              </ul>
+
+              <button class="hover:shadow-2xl grad p-4 text-white w-full">Suscribete a este plan</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Contacto" class="px-16 mb-32">
+    <div>
+      <h1 class="text-5xl font-bold pb-4">Contacto</h1>
+      <p class="pb-4">
+        Podemos ayudarte!
+      </p>
+      <a class="p-4 bg-green-300 inline-block hover:shadow-2xl" href="ayuda_zamazor@yahoo.com">Contactanos</a>
+
+    </div>
+  </section>
+
+  <footer class="text-center py-8 border-t">
+    <a class="hover:opacity-100 opacity-70 mr-4 text-green-500" href="#">ZAMAZOR</a>
+    <a class="hover:opacity-100 opacity-70 mr-4" href="#">¿Quienes Somos?</a>
+    <a class="hover:opacity-100 opacity-70 mr-4" href="#">Contacto</a>
+    <a class="hover:opacity-100 opacity-70 mr-4" href="#">2022 - ?</a>
+  </footer>
+
+</body>
+</html>
